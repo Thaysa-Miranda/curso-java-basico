@@ -2,10 +2,21 @@ package exer.exercicio.reajuste.salario;
 
 import java.util.Scanner;
 
-/**
- *
- * @author thaysa
- */
+/*As organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores 
+e lhe contrataram para desenvolver um programa que calculará os reajustes.
+Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte
+critério, baseado no salário atual:
+*salário de até R$280,00(incluindo): aumento de 20%
+*salário entre R$280,00 e R$700,00: aumento de 15%
+*salário entre R$700,00 e R$1500,00: aumento de 10%
+*salário de R$1500,00 em diante: aumento de 5%
+Após o aumento ser realizado, informe na tela:
+*salário antes do reajuste;
+*o percentual de aumento aplicado;
+*o valor do aumento;
+*o novo salário, após o aumento.
+*/
+
 public class ExercicioReajusteSalario {
 
     static final int PERCENTO_CINCO = 5;
